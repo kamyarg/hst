@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-import json
 
 import os
 import sys
@@ -184,7 +183,6 @@ class Picker(object):
             return self.last_lines
         self.last_search_text = txt
 
-        import time
         t1 = time.time()
         ret = self.index.find(txt)
 
