@@ -9,8 +9,6 @@ import curses
 from operator import itemgetter
 from indexer import Index
 import logging
-import os
-import sys
 import argparse
 import thread
 import time
